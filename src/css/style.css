@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Sulphur+Point:wght@700&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@700&display=swap');
+
+body{
+    background-color: black;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+h1, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+.container1{
+    width: 100%;
+    height: 700px;
+}
+.principal{
+    width: 100%;
+    margin-top: -400px;
+    position: relative;
+    z-index: 1;
+}
+button{
+    position: relative;
+    z-index: 5;
+    color: red;
+    top: 310px;
+    left: 50px;
+    background-color: transparent;
+  color: white;
+    font-size: 24px;
+    display: block;
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-family: 'Signika Negative', sans-serif;
+}
+
+.p2{
+    width: 15%;
+    margin-top: -50px;
+    margin-left: 60px;
+    position: relative;
+    z-index: 2;
+}
+
+.titulo{
+color: red;
+position: relative;
+z-index: 3;
+top: 320px;
+left: 50px;
+font-family: 'Sulphur Point', sans-serif;
+font-size: 35px;
+}
+
+.titu{
+    color: red;
+
+    position: absolute;
+    z-index: 4;
+    top: 200px;
+    left: 950px;
+    font-family: 'Sulphur Point', sans-serif;
+    font-size: 30px;
+    padding: 10px 20px;
+}
+
+.container2{
+    width: 100%;
+    height: 450px;
+}
+
+.imagem2{
+    width: 50%;
+    margin-top: -350px;
+    margin-left: 680px;
+}
+
+.sinopse{
+    color: red;
+    position: relative;
+    z-index: 1;
+    top: 25px;
+    left: 70px;
+    font-family: 'Sulphur Point', sans-serif;
+    font-size: 30px;
+    max-width: 500px;
+}
+
+.texto{
+    position: relative;
+    z-index: 2;
+    color: white;
+    top: 40px;
+    font-family: 'Sulphur Point', sans-serif;
+    font-size: 20px;
+    max-width: 50%;
+    left: 20px;
+}
+
+.container3 {
+    width: 100%;
+    height: 400px;
+}
+
+.principal3{
+    width: 100%;
+    position: absolute;
+    top: 1150px;
+    left: -100px;
+    z-index: 1;
+}
+
+li{
+    color: white;
+    padding-bottom: 20px;
+    text-align: center;
+    left: 900px;
+    top: 80px;
+    font-size: 18px;
+    position: relative;
+    max-width: 400px;
+    z-index: 2;
+    font-family: 'Sulphur Point', sans-serif;
+}
+
+.container4{
+    height: 700px;
+}
+
+.fim{
+    color: white;
+    position: relative;
+    max-width: 600px;
+    top: -150px;
+    font-family: 'Sulphur Point', sans-serif;
+    left: 350px;
+
+}
+
+.final{
+    width: 50%;
+    position: relative;
+    top: 350px;
+    left: 320px;
+}

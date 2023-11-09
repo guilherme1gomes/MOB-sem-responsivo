@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <section class="container1">
+            <h1 class="titulo">MOB PSYCHO</h1>
+            <h2 class="titu">Um anime sobre evoluir</h2>
+            <button onclick="scrollToElement('pagina2')">Sinopse</button>
+            <button onclick="scrollToElement('pagina3')">Curiosidades</button>
+            <button onclick="scrollToElement('pagina4')">Impacto Emocional</button>
+            <img class="p2" src="./src/imagens/48244a82e0c6ad67ed23e2d0e9a5112b-PhotoRoom.png-PhotoRoom.png" alt="">
+            <img class="principal" src="./src/imagens/20221221-mob-psycho-100-iii-PhotoRoom.png-PhotoRoom.png" alt="">
+        </section>
+
+        <section class="container2" id="pagina2">
+            <h1 class="sinopse">Mob Psycho 100: Ocultando Poderes, Revelando Emoções</h1>
+            <p class="texto">"Mob Psycho 100" é uma série de anime e mangá criada por ONE. A história segue Shigeo Kageyama, também conhecido como "Mob", um estudante do ensino médio com poderes psíquicos extraordinários. No entanto, ele prefere manter suas habilidades em segredo para levar uma vida normal. Mob trabalha como assistente de um exorcista charlatão chamado Arataka Reigen, que usa os poderes de Mob para ganhar dinheiro. A trama se desenrola com Mob aprendendo a lidar com suas emoções e poderes, enquanto enfrenta várias ameaças sobrenaturais e desafios emocionais. A história aborda temas como autoaceitação, amadurecimento e a complexidade das emoções humanas.</p>
+        <img class="imagem2" src="./src/imagens/gifmob.webp" alt="">
+        </section>
+
+        <section class="container3" id="pagina3">
+            <ul>
+                <li>Mob Psycho 100 é criado por ONE, que também é o autor da webcomic que inspirou "One Punch Man". Ambas as séries compartilham um estilo de comédia único e são apreciadas por fãs em todo o mundo.</li>
+                <li>Além do protagonista, a série dedica tempo para desenvolver personagens secundários de uma forma que muitas outras séries de anime não fazem. Cada personagem tem sua própria história e arco de desenvolvimento, o que enriquece o universo da série.</li>
+                <li>A animação é notável por seu estilo inovador e experimental. As cenas de ação são frequentemente acompanhadas por animações psicodélicas e visuais criativos, o que contribui para uma experiência visual única.</li>
+            </ul>
+            <img class="principal3" src="./src/imagens/rr.jpg" alt="">
+        </section>
+
+        <section class="container4" id="pagina4">
+            <img class="final" src="./src/imagens/tumblr_inline_pqdhb2Yn5i1vsy6xf_1280-PhotoRoom.png-PhotoRoom.png" alt="">
+            <h1 class="fim">Deixando os textos de ChatGPT de lado, Mob Psycho é como um manual da vida, todos deveriam ter a oportunidade de assistir e ao mesmo tempo evoluir junto com Shigeo, cada um é o protagonista da sua própria vida... Tenho gratidão eterna a essa obra."</h1>
+        </section>
+    </main>
+
+    <script>
+        function scrollToElement(id) {
+            var element = document.getElementById(id);
+            element.scrollIntoView({
+                behavior: "smooth"
+            });
+        }
+    </script>
+</body>
+</html>
